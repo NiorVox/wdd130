@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-    --primary-color: #0A1128;
-    --secondary-color: #001F54;
-    --accent1-color: #54acff;
+    --primary-color: #003D7F;
+    --secondary-color: #0068AE;
+    --accent1-color: #00608C;
     --accent2-color: #1282A2;
     --heading-font: Montserrat, serif;
     --paragraph-font: Montserrat, serif;
@@ -59,4 +59,24 @@ nav a:visited {
 nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
+}
+
+.primary {
+    background-color: var(--primary-color)
+}
+
+.secondary {
+    background-color: var(--secondary-color)
+}
+
+.accent1 {
+    background-color: var(--accent1-color)
+}
+
+.accent2 {
+    background-color: var(--accent2-color)
+}
+
+.text-white{
+    color: #ffffff;
 }
