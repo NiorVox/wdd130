@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --primary-color: #003D7F;
+    --secondary-color: #0068AE;
+    --accent1-color: #1282A2;
+    --accent2-color: #00608C;
+    --white: #ffffff;
+    --heading-font: Montserrat, serif;
+    --paragraph-font: Montserrat, serif;
+    --nav-background-color: #1282A2;
+    --nav-link-color: #001F54;
+    --nav-hover-link-color: #ffffff;
+    --nav-hover-background-color: #001F54;
+}
+
+body {
+    font-family: var(--heading-font);
+    text-align: center;
+    margin: 0;
+    padding: 0 40px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+nav a {
+    font-size: 18px;
+}
+
+nav a:link,
+nav a:visited {
+    color: var(--nav-link-color);
+    text-decoration: none;
+}
+
+nav img {
+    width: 45px;
+}
+
+section {
+    text-align: center;
+}
+
+section p{
+    font-size: 18px;
+    padding: 0 400px;
+}
+
+section h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+section img {
+    width: 600px;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    z-index: 10;
+    text-align: center;
+    background-color: #001f54a8;
+    color: var(--white);
+    width: 100%;
+    padding: 2rem 0;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.hero article {
+    position: absolute;
+    margin-top: 250px;
+    background-color: #003d7fa8;
+    padding: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+
+}
+
+.hero article p {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--white);
+}
+
+.hero article img {
+    width: 300px;
+    float: right;
+    margin-left: 20px;
+
+}
