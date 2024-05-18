@@ -17,8 +17,9 @@
 body {
     font-family: var(--heading-font);
     text-align: center;
-    margin: 0;
+    margin: 0 auto;
     padding: 0 40px;
+    max-width: 1500px;
 }
 
 h1,
@@ -32,27 +33,31 @@ h6 {
 }
 
 header {
-	margin: 1rem auto;
-    padding: 15px;
+    margin: 0 auto auto;
+    padding: 30px;
     position: relative;
-	display: grid;
-	grid-template-columns: 120px 1fr 1fr;
+    display: grid;
+    grid-template-columns: 150px 400px 1fr;
     grid-row-gap: 20px;
-	align-items: center;
-	max-width: 1350px;
-
+    align-items: center;
+    max-width: 1500px;
     background-color: #cbf1ff;
 }
 
-header h1{
-	margin-left: 1rem auto;
+header h1 {
     font-weight: 600;
+    text-align: left;
+    padding-left: 15px;
+}
+
+header img {
+    width: 150px;
 }
 
 .logo img {
-	margin: 0 0.25rem 0 1rem;
-	width: 64px;
-	height: auto;
+    margin: 0 0.25rem 0 1rem;
+    width: 64px;
+    height: auto;
 }
 
 nav a {
@@ -70,35 +75,31 @@ nav img {
 }
 
 .navigation {
-	display: flex;
-	list-style: none;
+    display: flex;
+    list-style: none;
 }
 
 .navigation li {
-	flex: 1 1 100%;
+    flex: 1 1 100%;
 }
 
 .navigation a {
-	display: block;
-	color: navy;
-	padding: 20px;
-	text-decoration: none;
-}
-
-.navigation a:hover {
-
+    display: block;
+    color: navy;
+    padding: 20px;
+    text-decoration: none;
 }
 
 section {
     text-align: center;
 }
 
-section p{
+section p {
     font-size: 18px;
     padding: 0 400px;
 }
 
-section h2{
+section h2 {
     font-size: 30px;
     font-weight: 600;
 }
@@ -153,3 +154,36 @@ section img {
     margin-left: 20px;
 
 }
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+}
+
+figure img {
+    width: 220px;
+    height: 150px;
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
+.history {
+    display: flex;
+    justify-content: space-between;
+}
+
+.adventure {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
