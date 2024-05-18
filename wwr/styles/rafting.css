@@ -96,7 +96,6 @@ section {
 
 section p {
     font-size: 18px;
-    padding: 0 400px;
 }
 
 section h2 {
@@ -106,6 +105,19 @@ section h2 {
 
 section img {
     width: 600px;
+}
+
+footer{
+    padding: 20px;
+    background-color: #cbf1ff;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+footer nav{
+   text-align: right;
 }
 
 .hero {
@@ -177,9 +189,30 @@ figcaption {
     text-align: center;
 }
 
+.history-wrapper {
+    background-color: #f1fbff;
+    padding: 5px 40px 40px 40px;
+}
+
 .history {
-    display: flex;
-    justify-content: space-between;
+    max-width: 1500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.history img{
+    margin: 0 auto;
+    width: 350px;
+}
+
+.history p{
+    text-align: left;
+
+}
+
+.adventure-wraper{
+    background-color: #eeeeee;
+    padding: 5px 40px 40px 40px;
 }
 
 .adventure {
