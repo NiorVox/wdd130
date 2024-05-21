@@ -1,0 +1,53 @@
+<! DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WDD 130 | HTML Form - User Poll</title>
+    <link rel="stylesheet" href="styles/poll-form.css">
+  </head>
+  <body>
+    <header>
+      <h1>WDD 130 | Ammon Capate | HTML Form - User Poll</h1>
+    </header>
+    <main>
+      <form>
+        <fieldset>
+          <legend>Contact Information</legend>
+          <div class="form-item column2">
+            <label for="fullname">Full Name :</label>
+            <input type="text" id="fullname" name="fullanme">
+        </div>
+        <div class="form-item column2">
+            <label for="useremail">Email :</label>
+            <input type="email" id="useremail" name="useremail">
+        </div>
+        </fieldset>
+        <fieldset>
+          <legend>Questions</legend>
+          <form>
+            <div class="form-item column1">
+                <label for="select-browser">What is your facorite internet browser?</label>
+                <select id="select-browser">
+                    <option >Chrome</option>
+                    <option >Edge</option>   
+                    <option >Safari</option>        
+                </select>
+            </div>
+            <div class="form-item column1">
+                <label for="fullname">What is your facorite internet browser?</label>
+                <input type="checkbox">
+            </div>
+            <div class="form-item column1">
+                <label for="test-area">list the places you have lived:</label>
+            </div>
+            <textarea name="" id="test-area" cols="30" rows="5" placeholder="Example:Stillwater Florida, Amsterdam Netherlands"></textarea>
+          </form>
+        </fieldset>
+      </form>
+    </main>
+    <footer>
+      <p>02024 | HTML Form - User Poll Activity | Ammon Capate</p>
+    </footer>
+  </body>
+</html>
