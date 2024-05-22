@@ -143,7 +143,7 @@ footer nav{
     position: absolute;
     z-index: 10;
     text-align: center;
-    background-color: #001f54a8;
+    background-color: #001f54f2;
     color: var(--white);
     width: 100%;
     padding: 2rem 0;
@@ -154,7 +154,7 @@ footer nav{
 .hero article {
     position: absolute;
     margin-top: 250px;
-    background-color: #003d7fa8;
+    background-color: #002d0fd9;
     padding: 20px;
     margin-left: 250px;
     margin-right: 250px;
