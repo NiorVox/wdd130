@@ -241,6 +241,14 @@ figcaption {
     width: 100%;
     margin-top: 50px;
 }
+.hero h2 {
+    color: #001F54;
+}
+.contact-us h2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
 
 .contact-us form{
     text-align: left;
