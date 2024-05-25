@@ -320,6 +320,7 @@ form button:hover {
     background-color: #003d7fc4;
     color: aliceblue;
     padding: 15px;
+    text-align: left;
 }
 
 .company img {
@@ -328,7 +329,8 @@ form button:hover {
     height: 550px;
 }
 
-.company h2 {
+.company h2,
+.company h3 {
     color: #fff;
 }
 

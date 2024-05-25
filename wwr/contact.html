@@ -25,13 +25,17 @@
         <div class="company">
             <div class="contact-us"> 
                 <div class="company-info">
-                    <h2>Company Information</h1>
-    
-                    <p>Address: 123 Company St, City, Country</p>
-                    
-                    <p>Phone: +123 456 7890</p>
-                    
-                    <p>Email: info@example.com</p>
+                    <h2>Company Information</h2>
+                    <hr>
+                    <h3>Address</h3>
+                    <p>Green Meadows, Park District, Barangay <br> Alabel, Sarangani, Philippines</p>
+                    <hr>
+                    <h3>Phone</h3>
+                    <p>+123 456 7890</p>
+                    <hr>
+                    <h3>Email</h3>
+                    <p>crystalwaterrafting@example.com</p>
+                    <hr>
                 </div>
                 <div class="map-container">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5610.931582307194!2d125.35278602966358!3d6.059319630211856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sph!4v1716602986323!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -70,7 +74,7 @@
                     </figure>
                     <div class="employee-job">
                         <h3>Karen Villianueva</h3>
-                        <p>As your Safety Manager I ensures compliance, implements protocols, and oversees workplace safety.</p>
+                        <p>As your Safety Manager I ensures compliance, implements protocols, and oversees safety.</p>
                     </div>
                 </div>
 
@@ -78,26 +82,39 @@
         </section>
         <div class="hero">
                 <div class="contact-us"> 
+                    
                     <form class="">
-                        <label for="q1">Full Name</label>
-                        <input name="q1" type="text" id="q1">
+                        <label for="name">Full Name</label>
+                        <input name="name" type="text" id="name">
                         <br>
-                        <label for="q1">Email Address</label>
-                        <input name="q1" type="text" id="q1">
+                        <label for="email">Email Address</label>
+                        <input name="email" type="text" id="email">
                         <br>
                         <p>Please select the type of inquiry:</p>
-                        <label><input type="radio" name="inquiryType" value="inquiry"> <a>General Inquiry</a></label>
+                        <div>
+                            <input name="inquiryType" type="radio" id="inquiry">
+                            <label for="inquiryType">General Inquiry</label>
+                        </div>
                         <br>
-                        <label><input type="radio" name="inquiryType" value="reservation"> <a>Reservation Question</a></label>
+                        <div>
+                            <input name="inquiryType" type="radio" id="question">
+                            <label for="inquiryType">Reservation Question</label>
+                        </div>
                         <br>
-                        <label><input type="radio" name="inquiryType" value="suggestion"> <a>Website Suggestion</a></label>
+                        <div>
+                            <input name="inquiryType" type="radio" id="suggest">
+                            <label for="inquiryType">Website Suggestion</label>
+                        </div>
                         <br>
-                        <label for="q2">Message</label>
-                        <textarea name="q2" id="q2" cols="30" rows="5" placeholder=""></textarea>
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" cols="30" rows="5" placeholder=""></textarea>
                         <br>
-                        <label><input type="checkbox" name="subscribe" value="newsletter"><a>Please subscribe me to the monthly newsletter</a></label>
+                        <div>
+                            <input name="sbubsribe" type="checkbox" id="sbubsribe">
+                            <label for="sbubsribe">Please subscribe me to the monthly newsletter</label>
+                        </div>
                         <br>
-                        <button>Submit</button>
+                        <input type="submit">
                     </form>
                 </div>
             <img src="images/bg-contact.png" alt="Rafting In Action">    
