@@ -18,8 +18,7 @@ body {
     font-family: var(--heading-font);
     text-align: center;
     margin: 0 auto;
-    padding: 0 40px;
-    max-width: 1500px;
+    width: 100%;
 }
 
 h1,
@@ -40,7 +39,6 @@ header {
     grid-template-columns: 150px 400px 1fr;
     grid-row-gap: 20px;
     align-items: center;
-    max-width: 1500px;
     background-color: #cbf1ff;
 }
 
@@ -134,6 +132,15 @@ footer nav{
 
 }
 
+.trips {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+
+}
+
 .hero img {
     display: block;
     width: 100%;
@@ -154,12 +161,12 @@ footer nav{
 
 .hero article {
     position: absolute;
-    margin-top: 250px;
-    background-color: #002d0fd9;
+    margin-top: 560px;
+    background-color: #002a71e8;
     padding: 20px;
-    margin-left: 250px;
-    margin-right: 250px;
-
+    margin-left: 22%;
+    margin-right: 20%;
+    border-radius: 20px;
 }
 
 .hero article p {
@@ -209,9 +216,8 @@ figcaption {
 }
 
 .history {
-    max-width: 1500px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 400px 1fr;
 }
 
 .history img{
@@ -249,6 +255,24 @@ figcaption {
 }
 
 .contact-us form{
+    text-align: left;
+}
+
+.contact-us2{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 130px;
+}
+
+.contact-us2 h2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.contact-us2 form{
     text-align: left;
 }
 
@@ -361,3 +385,128 @@ form button:hover {
     border: none;
 }
 
+.bundles-wrap {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    height: 250px;
+}
+
+.bundles {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bundles-wrap button{
+    width: 100%;
+    height: 50px;
+    background-color: #ffffff;
+    color: #008a22;
+    border: 2px solid #008a22;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    
+}
+
+.bundles-wrap button:hover{
+    background-color: #007404;
+    color: #fff;
+}
+
+.bundles-include{
+    width: 100%;
+    text-align: left;
+    margin-left: 15px;
+}
+
+.head-trips{
+    display: flex;
+    justify-content: space-between;
+}
+
+.head-trips button{
+    width: 300px;
+    height: 50px;
+    font-weight: 600;
+    background-color: #ffffff;
+    color: #005eca;
+    border: none;
+    border-radius: 10px;
+    margin-top: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.head-trips button:hover{
+
+    background-color: #0278af;
+    color: #fff;
+
+}
+
+.hero3 {
+    position: relative;
+    width: 100%;
+
+}
+
+.hero3 img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero3 h1 {
+    position: absolute;
+    z-index: 10;
+    text-align: center;
+    background-color: #001f54f2;
+    color: var(--white);
+    width: 100%;
+    padding: 2rem 0;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.hero3 article {
+    position: absolute;
+    margin-top: 560px;
+    background-color: #002a71e8;
+    padding: 20px;
+    margin-left: 20%;
+    border-radius: 20px;
+}
+
+.hero3 article p {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--white);
+    text-align: left;
+}
+
+.hero3 h2 {
+    color: var(--white);
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.trips img {
+    display: block;
+    width: 100%;
+    height: 550px;
+}
+
+.testimonial{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 1000px;
+    background-color: #ffffff79;
+    height: 420px;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 40px;
+}
