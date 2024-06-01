@@ -501,12 +501,77 @@ form button:hover {
 
 .testimonial{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     position: absolute;
     width: 1000px;
-    background-color: #ffffff79;
-    height: 420px;
+    background-color: #ffffffde;
+    height: 440px;
     border-radius: 20px;
     padding: 20px;
     margin-top: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid #84bdff;
+}
+
+.testimonial h3{
+    margin-top: 0px;
+}
+
+.testimonial-image img{
+    width: 300px;
+    height: 330px;
+}
+
+.testimonial-feedback{
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    margin-left: 20px;
+    font-weight: 600;
+    color: #00608C;
+}
+
+.trip-gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.trip-gallery img{
+    width: 100%;
+    height: 150px;
+    cursor: pointer;
+}
+
+.trip-gallery img:hover{
+    border: 2px solid #7ddf80;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.styled-table th, .styled-table td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.styled-table th {
+    background-color: #f2f2f2;
+}
+
+.ads button{
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid #e5e5e5;
+    cursor: pointer;
+}
+
+.ads button{
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid #e5e5e5;
+    cursor: pointer;
 }
