@@ -427,9 +427,9 @@ form button:hover {
     justify-content: space-between;
 }
 
-.head-trips button{
-    width: 300px;
-    height: 50px;
+.head-trips a{
+    width: 310px;
+    height: 40px;
     font-weight: 600;
     background-color: #ffffff;
     color: #005eca;
@@ -438,9 +438,11 @@ form button:hover {
     margin-top: 5px;
     font-size: 20px;
     cursor: pointer;
+    text-decoration: none;
+    padding-top: 15px;
 }
 
-.head-trips button:hover{
+.head-trips a:hover{
 
     background-color: #0278af;
     color: #fff;
@@ -562,16 +564,16 @@ form button:hover {
     background-color: #f2f2f2;
 }
 
-.ads button{
+.ads a{
     height: 35px;
     border-radius: 10px;
+    color: #001F54;
     border: 1px solid #e5e5e5;
     cursor: pointer;
+    font-weight: 600;
+    background-color: #eeeeee;
+    text-decoration: none;
+    padding: 10px;
 }
 
-.ads button{
-    height: 35px;
-    border-radius: 10px;
-    border: 1px solid #e5e5e5;
-    cursor: pointer;
-}
+
